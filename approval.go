@@ -57,7 +57,7 @@ func (a *approvalEnvironment) createApprovalIssue(ctx context.Context) error {
 	issueBody := fmt.Sprintf(`Workflow is pending manual review.
 URL: %s
 
-Required approvers: %s
+Required approvers OK: %s
 
 Respond %s to continue workflow or %s to cancel.`,
 		a.runURL(),
